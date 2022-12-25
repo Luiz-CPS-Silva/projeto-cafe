@@ -30,6 +30,14 @@ body {
     background-color: var(--cor3);
     font-family: var(--fonte-padrão);
 }
+
+.destaque {
+    background-image: linear-gradient(to right, #F2B988, transparent);
+    color: #8C5230;
+    font-size: 1.4em;
+    font-family: var(--fonte-destaque);
+}
+
 a.externo::after {
     content: '\00a0\1F517';
 }
@@ -110,9 +118,9 @@ main h2 {
 }
 
 main h3 {
-    font-family: ;
+    font-family: var(--fonte-Revonza);
     color: var(--cor2);
-    font-size: 1.3em;
+    font-size: 1.6em;
     font-weight: normal;
     background-image: linear-gradient(to right, #F2B988, transparent);
     text-indent: 8px;
@@ -179,7 +187,7 @@ li {
 aside {
     background-color: #F2B988;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
 }
 
